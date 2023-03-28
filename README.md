@@ -4,7 +4,7 @@
 
 <hr>
 
-**Herzlich Willkommen – und schön, dass du dabei bist!**  
+**Herzlich Willkommen zum JUG Saxony Camp 2023 – schön, dass du dabei bist!**  
 In diesem Repository findest du alle Infos zur Vorbereitung und während des Workshops den Quelltext unserer Beispielanwendung.
 
 
@@ -19,7 +19,7 @@ Die gesamte Installation wird rund 30 Minuten dauern.
 ## Benötigte Software
 
 1. **Node.js 14, 16 oder 18** (jeweils die aktuelle Nebenversionsnummer): [https://nodejs.org](https://nodejs.org)
-   + Mac-User bitte Homebrew verwenden! ([siehe Anleitung](https://presentations.angular.schule/HOMEBREW_NODE))
+   + (Mac-User sollten ggf. Homebrew verwenden, [siehe Anleitung](https://presentations.angular.schule/HOMEBREW_NODE).)
 2. **Google Chrome:** [https://www.google.com/chrome/](https://www.google.com/chrome/)
 3. **Visual Studio Code:** [https://code.visualstudio.com](https://code.visualstudio.com)
 4. **Angular Language Service für VS Code:** [Angular Language Service (`Angular.ng-template`)](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
@@ -68,9 +68,7 @@ npx ng serve
 npm start
 ```
 
-> Auf http://localhost:4200 sollte nun eine Website mit dem Text *"book-rating app is running!"* erscheinen!
-
-![Screenshot CLI](https://assets.angular.schule/chrome_cli_welcome_new.png)
+> Auf http://localhost:4200 sollte nun eine Website mit dem Text *"Hallo JUG Saxony Camp 2023!"* erscheinen!
 
 
 Beende danach den laufenden Webserver mit Strg + C.
@@ -86,5 +84,5 @@ Sollte es zu Problemen kommen, melde dich bitte einfach per Mail an [team@angula
 
 <img src="https://assets.angular.schule/logo-angular-schule.png" height="60">
 
-### &copy; https://angular.schule | Stand: 16.02.2023
+### &copy; https://angular.schule | Stand: 28.03.2023
 
