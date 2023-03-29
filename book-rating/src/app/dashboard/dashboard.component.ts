@@ -9,9 +9,15 @@ import { getStaticBookList } from '../shared/book-data';
 })
 export class DashboardComponent {
   books: Book[] = [];
+  cart: Book[] = [];
 
   constructor() {
     this.books = getStaticBookList();
+  }
+
+  addToCart(book: Book) {
+    this.cart.push(book);
+    console.log(this.cart);
   }
 }
 

@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'Book Rating';
 
   constructor() {
-    setTimeout(() => {
+    /*setTimeout(() => {
       this.title = 'dhfuksdhfdk';
-    }, 2000);
+    }, 2000);*/
   }
 }

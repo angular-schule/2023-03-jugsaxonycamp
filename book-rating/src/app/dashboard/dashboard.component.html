@@ -1,9 +1,12 @@
 <br-book
   *ngFor="let b of books"
-  [book]="b"></br-book>
-
+  [book]="b"
+  (cartAdd)="addToCart($event)"></br-book>
 <!--
   <ul>
     <li *ngFor="let b of books">{{ b.title }}</li>
   </ul>
 -->
+
+
+<br-cart-display [books]="cart"></br-cart-display>
